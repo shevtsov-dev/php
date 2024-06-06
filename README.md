@@ -15,5 +15,9 @@ Here you can check my progress in PHP
 
 Add function.php: function.php - helper with functions.
 
+Add array.php: array.php - helper with arrays.
+
 Task 1: BubbleSort. Fast sort without any functions. for { for { if } } }
+
+Task 2: Parsing. Not doing this for now.
 
