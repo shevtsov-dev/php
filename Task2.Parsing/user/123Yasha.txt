@@ -1,0 +1,6 @@
+{
+    "id": "123",
+    "name": "Yasha",
+    "email": "test@test.test",
+    "created_at": "10\/06\/2024 19:05:45"
+}
