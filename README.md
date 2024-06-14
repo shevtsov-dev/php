@@ -17,7 +17,12 @@ Add function.php: function.php - helper with functions.
 
 Add array.php: array.php - helper with arrays.
 
+Add reg.php: reg.php - helper with regulars.
+
+Add ifelse.php: ifelse.php - helper with cycles.
+
 Task 1: BubbleSort. Fast sort without any functions. for { for { if } } }
 
-Task 2: Parsing. Not doing this for now.
+Task 2: Saving users from file and GET
 
+Task 3: Tests + recursion
