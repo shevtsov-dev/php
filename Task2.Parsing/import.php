@@ -74,3 +74,5 @@ if (isset($_GET['action']) && $_GET['action'] === 'display_all') {
     displayAllUsers();
 }
 ?>
+
+
