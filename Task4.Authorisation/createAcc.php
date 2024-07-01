@@ -29,7 +29,7 @@
         <label for="password2" class="form-label">Повторите пароль</label>
         <input type="password" class="form-control" id="password2" name="password2" placeholder="Повторите пароль" autocomplete="off" required minlength="8" maxlength="20" pattern="[^' ']+" title="Пробелы не допускаются">
     </div>
-    <button type="submit" class="btn btn-primary mb-3 regBtn">Зарегестрироваться</button>
+    <button type="submit" class="btn btn-primary mb-3 regBtn">Зарегистрироваться</button>
     <p>У меня уже есть аккаунт - <a class="link" href="signIn.php">войти</a>.</p>
 </form>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
