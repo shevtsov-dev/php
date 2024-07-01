@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 15px auto;
+    padding: 0 15px;
+}
+
+.signInBtn {
+    width: 100%;
+}
+
+.regBtn {
+    width: 100%;
+}
+
+.link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.raccoon__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+.raccoon {
+    width: 165px;
+    height: 165px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+.raccoon__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.raccoon__text {
+    text-align: center;
+}
