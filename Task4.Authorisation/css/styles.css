@@ -53,3 +53,7 @@ body {
 .raccoon__text {
     text-align: center;
 }
+
+.btn-primary {
+    --bs-btn-bg: #d30000;
+}

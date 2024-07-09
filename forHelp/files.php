@@ -28,7 +28,7 @@ fwrite($file, "Новый текст для записи");
   * Относительный путь к файлу:
   */
 $filename = "folder/file.txt";
-$filepath = __DIR__ . "/" . $filename;
+$filepath = __DIR__ . "files.php/" . $filename;
 
 /**
  * Абсолютный путь к файлу:
@@ -46,7 +46,7 @@ $abs_filepath = "/var/www/html/project/folder/file.txt";
  */
 
 $filename = "folder/file.txt";
-$filepath = __DIR__ . "/" . $filename;
+$filepath = __DIR__ . "files.php/" . $filename;
 
 if (file_exists($filepath)) {
     $content = file_get_contents($filepath);

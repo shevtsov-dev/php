@@ -26,8 +26,11 @@
         <input type="number" id="game-time" min="5" step="1" max="20" value="5">
       </div>
       <div>
-        <p>Ваш лучший результат: <span id="best-score" style="font-weight: bold">0</span> тапов/сек</p>
+        <p>Ваш лучший результат: <span id="best-score" style="font-weight: bold">0</span> тап/сек</p>
       </div>
+      <a href="../../main.php">
+        <button class="btn-ext" style="margin-top: 0.9em">Выход из игры</button>
+      </a>
     </div>
   </div>
   <div id="message-popup" class="hide">
@@ -36,6 +39,7 @@
       <button id="message-close">&#x1F60E;</button>
     </div>
   </div>
+
   
 
   <script src="script.js"></script>
