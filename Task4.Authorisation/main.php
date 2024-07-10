@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['login'])) {
+    // Если пользователь не авторизован, перенаправляем его на страницу входа
+    header('Location: signIn.php');
+    exit;
+}
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,8 +19,14 @@
 <body>
 <main class="container raccoon__container">
     <div class="raccoon"><img class="raccoon__image" src="./img/raccoon-dance.gif" alt="raccoon-dance"></div>
-    <p class="raccoon__text"> Ты котик! Ты прошёл регистрацию и вошёл. Теперь, это твоя личная страничка. Жди обновлений! </p>
-
+    <h1 class="raccoon__text"> Мы дождались!!!</h1>
+    <p class="raccoon__text" style="font-size: 18px"> Это первая игра написанная на JS, попробуй свои силы в ней!  </p>
+    <a href="./games/tapOnMe/index.php">
+        <button type="submit" class="btn btn-primary mb-3 regBtn" style="background-color: #a8c828;">ИГРАТЬ</button>
+    </a>
+    <a href="./vendor/logout.php">
+        <button type="submit" class="btn btn-primary mb-3 regBtn btn-exit ">Выход</button>
+    </a>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
