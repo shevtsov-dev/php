@@ -14,7 +14,7 @@
  */
 
 ?>
-<form action="/forms/process.php" method="get">
+<form action="/forHelp/formslp/forms/process.php" method="get">
     <input type="text" name="username" placeholder="Введите ваше имя">
     <input type="email" name="email" placeholder="Введите ваш email">
     <input type="checkbox" name="subscribe" value="1"> Хочу подписаться на рассылку
@@ -22,7 +22,7 @@
     <button type="submit">Отправить GET запрос</button>
 </form>
 
-<form action="/forms/process.php" method="post" enctype="multipart/form-data">
+<form action="/forHelp/formslp/forms/process.php" method="post" enctype="multipart/form-data">
     <input type="text" name="username" placeholder="Введите ваше имя">
     <input type="email" name="email" placeholder="Введите ваш email">
     <select name="gender">
