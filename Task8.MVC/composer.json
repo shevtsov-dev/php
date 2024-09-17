@@ -1,0 +1,17 @@
+{
+    "name": "examplewd14onl2024/exampleyashawd14",
+    "description": "wd14",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Example\\Compos\\": "src/",
+            "MyProject\\Mvc\\": "mvc/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.3 || ^8.1",
+        "symfony/var-dumper": "^6.4"
+    }
+}
